@@ -2,75 +2,123 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #2F4F4F;
  }
 html{
   scroll-behavior: smooth;
 }
-body{
-  font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  line-height: 1.8;
-  background: #E6E6FA;
+nav{
+  position: fixed;
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
 }
-#banner{
-  background: url(./img/p1.png);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+nav .menu{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
 }
-.banner-text{
-  text-align: center;
-  color: #F0F8FF;
-  padding-top: 180px;
-}
-.banner-text h1{
-  font-size: 130px;
-}
-.banner-button{
-  margin: 70px auto 0;
-}
-.banner-button a{
-  width: 150px;
+.menu .logo a{
   text-decoration: none;
-  text-align: center;
-  display: inline-block;
-  margin: 0 10px;
-  padding: 12px 0;
-  color: #F0F8FF;
-  border: .5px solid #F0F8FF;
+  color: #E6E6FA;
+  font-size: 35px;
+  font-weight: 600;
 }
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #E6E6FA;
+  padding: 8px 15px;
+}
+.image{
+  background: url(./img/background.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.banner{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%,-50%);
+  padding: 0 20px;
+  text-align: center;
+}
+.banner h1{
+  color: #E6E6FA;
+  font-size: 50px;
+  font-weight: 600;
+}
+.tool{
+  text-align: center;
+  font-size: 50px;
+}
+.tool ul{
+  display: inline-flex;
+}
+.tool ul li{
+  list-style: none;
+  align-items: center;
+}
+.tool ul li a{
+  padding: 20px 35px;
+}
+
+.fb h2{
+  text-align: center;
+  font-size: 50px;
+}
+.fb p{
+  text-align:left;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 #profile{
   width: 100%;
   padding: 70px 0;
 }
-.title-text{
+.teamprofile{
   text-align: center;
   padding-bottom: 70px;
-  color: #2F4F4F;
 }
-.title-text p{
+.teamprofile p{
   text-align: left;
   margin: auto;
   font-size: 15px;
-  color: #36648B;
-
   z-index: 1;
   display: inline-block;
   padding-left: 20%;
   padding-right: 20%;
 }
-.title-text h2{
+.teamprofile h2{
   font-size: 50px;
 
 }
-.title-text h3{
+.teamprofile h3{
   font-size: 20px;
 }
-
-#profile{
-  width: 100%;
-  padding: 70px 0;
+.teamname img{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  padding: 5px;
 }
 .profile-row{
   width: 100%;
@@ -84,4 +132,85 @@ body{
   margin-bottom: 30px;
   border-radius: 5px;
   box-shadow: 0 10px 20px 3px #00968814;
+}
+
+
+
+#idea{
+  width: 100%;
+  padding: 70px 0;
+}
+.idea h2{
+  font-size: 50px;
+}
+.idea h3{
+  font-size: 20px;
+}
+.idea h4{
+  font-size: 15px;
+}
+.idea p{
+  text-align: left;
+  margin: auto;
+  font-size: 15px;
+  color: #36648B;
+}
+
+#tech{
+  width: 100%;
+  padding: 70px 0;
+}
+.tech h2{
+  font-size: 50px;
+}
+.tech h3{
+  font-size: 20px;
+}
+.tech h4{
+  font-size: 15px;
+}
+.tech p{
+  text-align: left;
+  margin: auto;
+  font-size: 15px;
+  color: #36648B;
+}
+
+#pro{
+  width: 100%;
+  padding: 70px 0;
+}
+.pro h2{
+  font-size: 50px;
+}
+.pro h3{
+  font-size: 20px;
+}
+.pro h4{
+  font-size: 15px;
+}
+.pro p{
+  text-align: left;
+  margin: auto;
+  font-size: 15px;
+  color: #36648B;
+}
+#fb{
+  width: 100%;
+  padding: 70px 0;
+}
+.fb h2{
+  font-size: 50px;
+}
+.fb h3{
+  font-size: 20px;
+}
+.fb h4{
+  font-size: 15px;
+}
+.fb p{
+  text-align: left;
+  margin: auto;
+  font-size: 15px;
+  color: #36648B;
 }
