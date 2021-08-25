@@ -214,58 +214,89 @@ nav .menu{
 #tech{
   width: 100%;
   padding: 70px 0;
+  background: #E6E6FA;
+  text-align: center;
+  padding-bottom: 70px;
 }
-.tech h2{
+.it h2{
   font-size: 50px;
 }
-.tech h3{
-  font-size: 20px;
+.ai h3{
+  font-size: 30px;
+  font-weight: bold;
 }
-.tech h4{
-  font-size: 15px;
-}
-.tech p{
-  text-align: left;
+.ai p{
+  text-align:left;
   margin: auto;
-  font-size: 15px;
-  color: #36648B;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.ai-row{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.ai-col{
+  flex-basis: 50%;
+  padding: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px 3px gray;
+}
+.cloud h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+.cloud p{
+  text-align:left;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.cloud-row{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.cloud-col{
+  flex-basis: 50%;
+  padding: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px 3px gray;
 }
 
 #pro{
   width: 100%;
   padding: 70px 0;
+  background: #E6E6FA;
+  text-align: center;
+  padding-bottom: 70px;
 }
-.pro h2{
+.profe h2{
   font-size: 50px;
 }
-.pro h3{
+.content h3{
   font-size: 20px;
 }
-.pro h4{
+.content h4{
   font-size: 15px;
+  text-align: left;
 }
-.pro p{
+.content p{
   text-align: left;
   margin: auto;
   font-size: 15px;
   color: #36648B;
 }
-#fb{
-  width: 100%;
-  padding: 70px 0;
-}
-.fb h2{
-  font-size: 50px;
-}
-.fb h3{
-  font-size: 20px;
-}
-.fb h4{
-  font-size: 15px;
-}
-.fb p{
-  text-align: left;
+.inf p{
+  text-align: center;
   margin: auto;
   font-size: 15px;
+  font-weight: bold;
   color: #36648B;
 }
