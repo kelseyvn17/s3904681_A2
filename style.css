@@ -10,6 +10,7 @@
 html{
   scroll-behavior: smooth;
 }
+
 nav{
   position: fixed;
   background: #1b1b1b;
@@ -93,6 +94,7 @@ nav .menu{
 #profile{
   width: 100%;
   padding: 70px 0;
+  background: #E6E6FA;
 }
 .teamprofile{
   text-align: center;
@@ -135,26 +137,79 @@ nav .menu{
 }
 
 
-
 #idea{
   width: 100%;
   padding: 70px 0;
+  background: #E6E6FA;
+  text-align: center;
+  padding-bottom: 70px;
 }
-.idea h2{
+.project h2{
   font-size: 50px;
 }
-.idea h3{
-  font-size: 20px;
+.overview h3{
+  font-size: 30px;
+  font-weight: bold;
 }
-.idea h4{
-  font-size: 15px;
-}
-.idea p{
-  text-align: left;
+.overview p{
+  text-align:left;
   margin: auto;
-  font-size: 15px;
-  color: #36648B;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+.motivation h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+.motivation p{
+  text-align:left;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.descript h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+.descript h4{
+  font-size: 20px;
+  font-style: italic;
+  font-style:
+}
+.descript p{
+  text-align:left;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.toolntech h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+.toolntech p{
+  text-align:left;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.des ul{
+  display: inline-flex;
+}
+.des ul li{
+  list-style: none;
+  align-items: center;
+}
+.outcome h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+.outcome p{
+  text-align:left;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 
 #tech{
   width: 100%;
